@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1512490_QuanLyChiTieu", "1512490_QuanLyChiTieu\1512490_QuanLyChiTieu.vcxproj", "{2DD20FA8-094B-4B41-A69E-58738BA3E125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DD20FA8-094B-4B41-A69E-58738BA3E125}.Debug|x64.ActiveCfg = Debug|x64
+		{2DD20FA8-094B-4B41-A69E-58738BA3E125}.Debug|x64.Build.0 = Debug|x64
+		{2DD20FA8-094B-4B41-A69E-58738BA3E125}.Debug|x86.ActiveCfg = Debug|Win32
+		{2DD20FA8-094B-4B41-A69E-58738BA3E125}.Debug|x86.Build.0 = Debug|Win32
+		{2DD20FA8-094B-4B41-A69E-58738BA3E125}.Release|x64.ActiveCfg = Release|x64
+		{2DD20FA8-094B-4B41-A69E-58738BA3E125}.Release|x64.Build.0 = Release|x64
+		{2DD20FA8-094B-4B41-A69E-58738BA3E125}.Release|x86.ActiveCfg = Release|Win32
+		{2DD20FA8-094B-4B41-A69E-58738BA3E125}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A338A29-976B-4548-BACA-B0AF5F5BB6E1}
+	EndGlobalSection
+EndGlobal
