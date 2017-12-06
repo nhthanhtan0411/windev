@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="cmdExit" LabelTitle="Exit application" />
+    <Command Name="cmdButton1" Symbol ="ID_LINE">
+      <Command.LabelTitle>
+        <String Id ="210">Line</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="211">res/icons8-horizontal-line-40.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="212">res/icons8-horizontal-line-40.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdButton2" Symbol ="ID_RECTANGLE">
+      <Command.LabelTitle>
+        <String Id ="213">Rectangle</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="214">res/icons8-rectangle-40.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="215">res/icons8-rectangle-40.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdButton3" Symbol ="ID_ELLIPSE">
+      <Command.LabelTitle>
+        <String Id ="216">Ellipse</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="217">res/icons8-ellipse-40.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="218">res/icons8-ellipse-40.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdButton4" Symbol ="ID_SIZE_1">
+
+      <Command.LargeImages>
+        <Image Id="219">res/icons8-number-1-40.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="220">res/icons8-number-1-40.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdButton5" Symbol ="ID_SIZE_2">
+
+      <Command.LargeImages>
+        <Image Id="221">res/icons8-number-2-40.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="222">res/icons8-number-2-40.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdButton6" Symbol ="ID_SIZE_3">
+
+      <Command.LargeImages>
+        <Image Id="223">res/icons8-number-3-40.bmp</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="224">res/icons8-number-3-40.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="Draw">
+      <Command.LabelTitle>
+        <String Id ="213">Draw</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="Shape">
+      <Command.LabelTitle>
+        <String Id ="213">Shape</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="Size">
+      <Command.LabelTitle>
+        <String Id ="213">Size</String>
+      </Command.LabelTitle>
+    </Command>
+  </Application.Commands>
+
+  <Application.Views>
+    <Ribbon>    
+      <!--<Ribbon.Tabs>
+        <Tab>
+          <Group>
+            <Button CommandName="cmdExit" />
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>-->
+
+      <Ribbon.Tabs>
+        <Tab CommandName="Draw">
+          <Group CommandName="Shape" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdButton1" />
+            <Button CommandName="cmdButton2" />
+            <Button CommandName="cmdButton3" />
+          </Group>
+
+          <!--<Group CommandName="Shape" SizeDefinition="ThreeButtons">
+            <ToggleButton CommandName="cmdButton1" />
+            <ToggleButton CommandName="cmdButton2" />
+            <ToggleButton CommandName="cmdButton3" />
+          </Group>
+          <Group CommandName="Shape">
+            <CheckBox CommandName="cmdButton1" />
+          </Group>-->
+          
+          <Group CommandName="Size" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdButton4" />
+            <Button CommandName="cmdButton5" />
+            <Button CommandName="cmdButton6" />
+          </Group>
+          
+          
+
+          
+          
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>
+		
